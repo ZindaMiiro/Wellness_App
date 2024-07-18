@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1065598093882",
+    "project_id": "comexamplewellnessapp",
+    "storage_bucket": "comexamplewellnessapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065598093882:android:cc95c48293ba49503dc303",
+        "android_client_info": {
+          "package_name": "com.example.wellness_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6FvpN4i_Ils_4JgIGOd3IshP4Cq88DpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
