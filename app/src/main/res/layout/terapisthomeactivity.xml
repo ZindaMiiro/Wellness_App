@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_pen"
+    android:padding="16dp"
+    tools:context=".TherapistHomeActivity">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WelcomeMessage"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/landingimage"
+        android:layout_below="@id/welcome_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/activities_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activities"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/act_buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="184dp"
+        android:layout_below="@id/activities_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_therapy_work"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:maxWidth="200dp"
+            android:minHeight="50dp"
+            android:paddingVertical="12dp"
+            android:text="@string/therapy_work"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_knowledge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:maxWidth="200dp"
+            android:minHeight="50dp"
+            android:paddingVertical="12dp"
+            android:text="@string/knowledge"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_viewtherapists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/colorAccent"
+            android:maxWidth="200dp"
+            android:minHeight="50dp"
+            android:paddingVertical="12dp"
+            android:text="@string/view_other_therapists"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="99dp"
+        android:layout_below="@id/act_buttons_layout"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <ImageButton
+            android:id="@+id/button_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/Home_icon_desc"
+            android:padding="16dp"
+            android:src="@drawable/home_icon" />
+
+        <ImageButton
+            android:id="@+id/button_about_us"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/About_us_icon_desc"
+            android:padding="16dp"
+            android:src="@drawable/aboutus_icon" />
+
+        <ImageButton
+            android:id="@+id/button_bio_data"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/BIO_data_icon_desc"
+            android:padding="16dp"
+            android:src="@drawable/user_icon" />
+    </LinearLayout>
+</RelativeLayout>

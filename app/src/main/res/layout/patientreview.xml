@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <!-- Patient Username -->
+    <TextView
+        android:id="@+id/textViewPatientUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_username_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextPatientUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPatientUsername"
+        android:hint="@string/patient_username_label"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Therapist Selection -->
+    <TextView
+        android:id="@+id/textView_Therapist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_therapist_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editTextPatientUsername"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_Therapists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_Therapist"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Review Text -->
+    <TextView
+        android:id="@+id/textView_Review"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/review_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/linearLayout_Therapists"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_Review"
+        android:hint="@string/review_hint"
+        android:inputType="textMultiLine"
+        android:minHeight="100dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/buttonSubmit_Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_review_button_text"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/black"
+        android:layout_below="@id/editText_Review"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

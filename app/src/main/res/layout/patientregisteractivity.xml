@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView_Guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UserRegI"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textView_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegUser"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textView_Guide"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegUserhint"
+        android:inputType="text"
+        android:layout_below="@id/textView_Username"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegName"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_Username"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegName"
+        android:inputType="text"
+        android:layout_below="@id/textView_Name"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView_NIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegNIN"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_Name"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_NIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/regHintNIN"
+        android:inputType="text"
+        android:layout_below="@id/textView_NIN"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegEmail"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_NIN"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_Email"
+        android:hint="@string/EmailHint"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegPassword"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_Email"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegPasswordhint"
+        android:inputType="textPassword"
+        android:layout_below="@id/textView_Password"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView_Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RegContact"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_Password"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/RegPasswordhint"
+        android:inputType="phone"
+        android:layout_below="@id/textView_Contact"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Regbutton"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        tools:ignore="VisualLintButtonSize" />
+</RelativeLayout>

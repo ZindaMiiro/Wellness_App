@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_pen">
+
+    <TextView
+        android:id="@+id/therapyWork_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TherapyWork"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/therapyWork_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <Button
+                android:id="@+id/button_view_appointments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_appointments"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <Button
+                android:id="@+id/button_departmentchoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choosedep"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <Button
+                android:id="@+id/button_add_to_knowledge_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_to_knowledge_page"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <Button
+                android:id="@+id/button_view_Departments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Categorychoose"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <Button
+                android:id="@+id/button_view_personal_patients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_personal_patients"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

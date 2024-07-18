@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <TableLayout
+        android:id="@+id/tableLayoutReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <!-- Table headers -->
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient Username"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Therapist Name"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Review"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:padding="8dp"
+                android:gravity="center" />
+        </TableRow>
+
+        <!-- Table rows will be added dynamically -->
+    </TableLayout>
+
+</RelativeLayout>
+
+

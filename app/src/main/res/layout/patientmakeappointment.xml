@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView_Guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appointments_title"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textView_PatientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_name_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textView_Guide"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_PatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_PatientName"
+        android:hint="@string/patient_name_label"
+        android:inputType="text"
+        android:minHeight="48dp"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+    <TextView
+        android:id="@+id/textView_Therapist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_therapist_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_PatientName"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_Therapists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_Therapist"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textView_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appointment_date_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/linearLayout_Therapists"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/appointment_date_hint"
+        android:inputType="date"
+        android:layout_below="@id/textView_Date"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appointment_time_label"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/editText_Date"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/appointment_time_hint"
+        android:inputType="time"
+        android:layout_below="@id/textView_Time"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_AddAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_button_text"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        tools:ignore="VisualLintButtonSize" />
+</RelativeLayout>
+

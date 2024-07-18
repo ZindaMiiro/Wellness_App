@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">My_Wellness_Companion</string>
+    <string name="login_button_text">Login</string>
+    <string name="register_button_text">Register</string>
+    <string name="logo_description">Logo of Wellness App</string>
+    <string name="EnterEmail">Enter your email address</string>
+    <string name="EmailHint">Email</string>
+    <string name="EnterPassword">Enter your password</string>
+    <string name="passwordhint">password</string>
+    <string name="WelcomeMessage">Welcome to the wellness companion</string>
+    <string name="Invaliddetails">re_enter crudentials</string>
+    <string name="TherapyUser">Therapy Journey</string>
+    <string name="KnowledgeUser">information</string>
+    <string name="GroupUser">Group therapy work</string>
+    <string name="HELP">HELP</string>
+    <string name="UserDairy">diary</string>
+    <string name="Home_icon_desc">HOME</string>
+    <string name="RegUser">USERNAME</string>
+    <string name="RegUserhint">Enter Username</string>
+    <string name="RegName">NAME</string>
+    <string name="RegNIN">National ID Number</string>
+    <string name="regHintNIN">Enter NIN</string>
+    <string name="RegEmail">Email</string>
+    <string name="RegEmailhint">Enter Email</string>
+    <string name="RegPassword">Password</string>
+    <string name="RegPasswordhint">Enter Password</string>
+    <string name="RegContact">Contact </string>
+    <string name="RegContacthint">Enter CONTACT</string>
+    <string name="userHistory">View your therapy history</string>
+    <string name="appointment">Make Appointments</string>
+    <string name="UserReg">PLease fill in contents to join wellness companion family</string>
+    <string name="About_us_icon_desc">About</string>
+    <string name="Content_icon_desc">Content</string>
+    <string name="BIO_data_icon_desc">Bio data</string>
+    <string name="activities">ACTIVITIES</string>
+    <string name="patient_icon_desc">PATIENT</string>
+    <string name="Therapist_icon_desc">THERAPIST</string>
+    <string name="checkappointments">check appointments</string>
+    <string name="TherapyS">THERAPY WORK PANEL</string>
+    <string name="veiwTherapist">Veiw Therapists</string>
+    <string name="Review">reviews </string>
+    <string name="ChooseUSER">select personal therapist</string>
+    <string name="UserRegI">PLease fill in contents to join wellness companion family</string>
+    <string name="Regbutton">Register</string>
+
+
+    <!-- Information text for knowledge activity -->
+    <string name="knowledge_info_text">Select a category and search for information.</string>
+    <string name="diary_info_text">Write your thoughts and reflections here.</string>
+
+    <!-- Hints for diary entry -->
+    <string name="diary_entry_hint">Enter your diary entry...</string>
+    <string name="date_hint">Select date</string>
+    <string name="time_hint">Select time</string>
+    <string name="date_format">%02d/%02d/%d</string> <!-- Example: 01/01/2023 -->
+    <string name="time_format">%02d:%02d</string>
+    <!-- strings.xml -->
+
+        <string name="placeholder_appointment_details">Your appointment details will appear here.</string>
+        <string name="placeholder_group_therapy_work">Information about group therapy work will appear here.</string>
+        <string name="placeholder_personal_doctor">Information about your personal doctor will appear here.</string>
+        <string name="placeholder_history">Your history will appear here.</string>
+    <string name="therapy_work">Therapy work</string>
+    <string name="knowledge">Knowledge</string>
+    <string name="view_other_therapists">View Other Therapists</string>
+    <string name="TherapyWork">Therapy Work</string>
+    <string name="view_appointments">View Appointments</string>
+    <string name="make_group_session">Make Group Session</string>
+    <string name="add_to_knowledge_page">Add to Knowledge Page</string>
+    <string name="view_personal_patients">View Personal Patients</string>
+    <string name="adminDepart">+department</string>
+    <string name="adminther">+Therapist</string>
+    <string name="adminPa">+Patient</string>
+    <string name="Depname">Category Name</string>
+    <string name="Depnamehint">Enter Category name</string>
+    <string name="adddep">+ CATEGORY</string>
+    <string name ="Adminlink">ADMIN SIDE </string>
+    <string name="view_therapists_title">All Therapists</string>
+    <string name="therapist_id">ID</string>
+    <string name="therapist_name">Name</string>
+    <string name="therapist_email">Email</string>
+    <string name="therapist_contact">Contact</string>
+
+        <string name="appointments_title">Make an Appointment</string>
+        <string name="patient_name_label">Patient Name</string>
+        <string name="select_therapist_label">Select Therapist</string>
+        <string name="appointment_date_label">Appointment Date</string>
+        <string name="appointment_time_label">Appointment Time</string>
+        <string name="submit_button_text">Submit</string>
+        <string name="error_patient_name_required">Patient name is required</string>
+        <string name="error_therapist_required">Therapist selection is required</string>
+        <string name="error_date_required">Date is required</string>
+        <string name="error_time_required">Time is required</string>
+        <string name="appointment_successful">Appointment successfully created</string>
+        <string name="appointment_failed">Failed to create appointment</string>
+
+    <string name="appointment_date_hint">Enter date (YYYY-MM-DD)</string>
+
+    <string name="appointment_time_hint">Enter time (HH:MM)</string>
+
+
+        <!-- Review Text Label and Hint -->
+        <string name="review_label">Review</string>
+        <string name="review_hint">Enter your review here...</string>
+
+        <!-- Submit Button Text -->
+        <string name="submit_review_button_text">Submit Review</string>
+
+    <string name="add_review">Add Review</string>
+    <string name="check_reviews">Check Reviews</string>
+    <string name="patient_username_label">Patient Username</string>
+    <string name="veiwdepartments">view categories</string>
+    <string-array name="department_categories">
+        <item>Category 1</item>
+        <item>Category 2</item>
+        <item>Category 3</item>
+        <!-- Add more items as needed -->
+    </string-array>
+    <string name="department_name1">Department 1</string>
+    <string name="department_name2">Department 2</string>
+    <string name="department_name3">Department 3</string>
+    <!-- Add more department names as needed -->
+
+    <string name="add_button_text">Add Departments</string>
+    <string name="therapist_name_label">Therapist Name:</string>
+    <string name="therapist_name_hint">Enter therapist name</string>
+    <string name="Choosecategory">choose category</string>
+
+
+        <string name="therapist_categories_title">Therapist Categories</string>
+
+        <string name="category">Category</string>
+    <string name="button_choose_therapist_text">Choose Therapist</string>
+    <string name="button_check_therapist_department_text">Check Therapist Category</string>
+    <string name="select_department">Select Department:</string>
+    <string name="enter_knowledge_content">Enter knowledge content</string>
+    <string name="wellness_logo_desc">Wellness Logo</string>
+    <string name="search_department">Search by Department</string>
+    <string name="search">Search</string>
+    <string name="no_knowledge_found">No knowledge content found for the selected department.</string>
+    <string name="no_department_found">No department found with the entered name.</string>
+
+
+
+        <string name="bio_title">User Bio</string>
+        <string name="bio_name_hint">Name</string>
+        <string name="bio_email_hint">Email</string>
+        <string name="bio_contact_hint">Contact</string>
+        <string name="bio_nin_hint">NIN</string>
+        <string name="bio_update_button">Update</string>
+        <string name="bio_update_success">Information updated successfully!</string>
+        <string name="bio_update_error">Please fill all fields!</string>
+    <string-array name="mood_options">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Angry</item>
+        <item>Excited</item>
+        <item>Anxious</item>
+        <item>Calm</item>
+        <item>Frustrated</item>
+        <item>Content</item>
+        <item>Bored</item>
+        <item>Stressed</item>
+        <item>Relaxed</item>
+        <item>Grateful</item>
+        <item>Confident</item>
+        <item>Motivated</item>
+        <item>Tired</item>
+        <item>Lonely</item>
+        <item>Hopeful</item>
+        <item>Inspired</item>
+    </string-array>
+
+        <!-- Other string definitions -->
+        <string-array name="knowledge_categories">
+            <item>Topic 1</item>
+            <item>Topic 2</item>
+            <item>Topic 3</item>
+            <item>Topic 4</item>
+            <item>Topic 5</item>
+            <!-- Add more topics as needed -->
+        </string-array>
+
+    <string name="no_department_selected">Please select a department to view knowledge.</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="contact">Contact</string>
+    <string name="nin">NIN</string>
+    <string name="update">Update</string>
+    <string name="Guidedmeditation">Guided Meditation</string>
+
+    <string name="therapist_icon_desc">Therpist</string>
+    <string name="Category">Categories</string>
+    <string name="Categorychoose">Categories options </string>
+    <string name="choosedep">choose to department to work with </string>
+    <string name="Logout">Logout</string>
+    <string name="choose_therapist_prompt">choose therapist</string>
+    <string name="choose_therapist_button">choose therapist</string>
+
+</resources>

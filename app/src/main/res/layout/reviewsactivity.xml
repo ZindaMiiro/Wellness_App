@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_pen">
+
+    <TextView
+        android:id="@+id/Review_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Review"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/Review_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="32dp">
+
+            <Button
+                android:id="@+id/button_addReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_review"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_checkReviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/check_reviews"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:textColor="@color/white"
+                android:layout_marginBottom="8dp"
+                android:minHeight="50dp"
+                android:maxWidth="200dp"
+                android:paddingVertical="12dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

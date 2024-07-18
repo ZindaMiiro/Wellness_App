@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Logo -->
+    <ImageView
+        android:id="@+id/background_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wellness_logo"
+        android:scaleType="centerCrop"
+        android:alpha="0.3"
+        android:contentDescription="@string/wellness_logo_desc" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Department Spinner -->
+            <Spinner
+                android:id="@+id/department_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:padding="8dp"
+                android:spinnerMode="dropdown"
+                android:textColor="@android:color/holo_orange_light"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <!-- Checkbox for selecting Department -->
+            <LinearLayout
+                android:id="@+id/department_checkboxes_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- Dynamically add checkboxes here -->
+            </LinearLayout>
+
+            <!-- Search Button -->
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/search"
+                android:backgroundTint="@android:color/holo_orange_light"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="8dp" />
+
+            <!-- Knowledge Content TextView -->
+            <TextView
+                android:id="@+id/knowledge_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="20dp"
+                android:textColor="@android:color/holo_orange_light" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
