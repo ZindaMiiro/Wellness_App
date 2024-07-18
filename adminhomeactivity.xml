@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".AdminHomeActivity">
+
+    <Button
+        android:id="@+id/addDepartmentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adminDepart" />
+
+    <Button
+        android:id="@+id/addTherapistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adminther" />
+
+    <Button
+        android:id="@+id/addPatientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adminPa" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView_Guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/UserRegI"
+        android:textSize="14sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textView_DepartmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Depname"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@id/textView_Guide"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editText_DepartmentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Depnamehint"
+        android:inputType="text"
+        android:layout_below="@id/textView_DepartmentName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button_AddDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adddep"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textColor="@color/black"
+        android:layout_below="@id/editText_DepartmentName"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
